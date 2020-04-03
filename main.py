@@ -1,11 +1,11 @@
 from PyQt5.QtWidgets import QApplication
 import sys
 
-from field_widget import FieldWidget
+from app.menu_widget import MenuWidget
 
 app = QApplication(sys.argv)
 
-v = FieldWidget()
+v = MenuWidget()
 
 v.show()
 app.exec_()
